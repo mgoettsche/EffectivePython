@@ -63,7 +63,7 @@ class ReadVisits(object):
         self.data_path = data_path
 
     def __iter__(self):
-        with open(self.data_path):
+        with open(self.data_path) as f:
             for line in f:
                 yield int(line)
 
