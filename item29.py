@@ -118,4 +118,4 @@ print('After:  %5r' % r7.voltage)
 # After:    0.1
 
 # @property methods should thus have no side effects and not perform complex operations, because users will expect them
-# to be fast just like normal attribute access. 
+# to be fast just like normal attribute access.
